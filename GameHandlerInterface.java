@@ -1,17 +1,14 @@
-
 /**
- * Write a description of interface GameHandlerInterface here.
+ * This interface contains the required methods that the class that
+ * contains the main game logic needs to have.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Dave Avis
+ * @version 12.19.2018
  */
 public interface GameHandlerInterface
 {
     /**
-     * An example of a method header - replace this comment with your own
-     *
-     * @param  y a sample parameter for a method
-     * @return   the result produced by sampleMethod
+     * Called each timeStep to update the board.
      */
     void doUpdates();
 }

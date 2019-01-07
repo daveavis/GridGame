@@ -1,7 +1,14 @@
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-//import grid.Constants;
 
+/**
+ * This class is used to launch our grid based game.
+ * 
+ * Students should not need to edit this file.
+ * 
+ * @author Dave Avis
+ * @version 12.19.2018
+ */
 public class Launcher
 {
     public static void main( String[] args )
